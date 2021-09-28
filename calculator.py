@@ -1,0 +1,5 @@
+print("tel de volgende getallen op")
+x = input()
+y = input()
+z = int(x) + int(y)
+print(z)
