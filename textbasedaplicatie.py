@@ -2,6 +2,7 @@ from time import sleep
 while True:
      print ("hey my name Yehudi.")
      print ("i'm 22 years old and very very veeeery stupid.")
+     sleep (2)
      print ("no idea what that had to do with anything but doesn't mater.")
      x = input ("by the way, who are you?.")
      print ( x +"?, wierd name.")
@@ -12,9 +13,11 @@ while True:
           print ("thank god someone at least knows what is good for them")
      elif d1a == "no":
           print ("my god, well if that is what you want i can't help ya")
+     else :print ("what?")
 
      print ("either way " + x + " if that is you real name")
      print ("i need to ask you a few more questions for...... reshearch purpose..")
+     sleep (2)
      print ("like for instance...wait LOOK OUT!")
      print ("*type a to dodge.*")
      print ("*type b to stand still.*")
@@ -22,6 +25,7 @@ while True:
      if  d2a == "a":
           print ("*as you dodge out of the way s huge explotion erupts at the spot where you were standing*")
           print ("my god that was close, nice dodge " + x + " didn't think you had it in ya")
+          sleep (1)
           print ("looks like the city is under attack again")
           print ("follow me!")
           print ("*type a to follow*")
@@ -47,9 +51,36 @@ while True:
                     print ("typ b om naar het buurland te vluchten")
                     d3c = input ("maak een keuze")
                     if d3c == "b":
-                         print ("")
+                         print ("je besluit om je familie mee te nemen naar het buurland")
+                         print ("maar daar voor moet je door een hele lange woestijn")
+                         print ("na dagen lang lopen kom je eindelijk veilig aan in het buurland")
+                         print ('het is rustiger maar de spanning is nog well te voellen in het buurland')
+                         print ('je probeerd je leven weer op te paken en probeerd vorige leven achter je te laten')
+                         print ("NEUTRAAL EINDE")
+                         break
                     elif d3c == "a":
-                         print ("")     
+                         print ("je belsuit om met je familie naar nederland te gaan vluchten")  
+                         print ("je hebt goeie dingen gehoord over nederland en denkt dat het een goed idee is om daar naar to te gaan")  
+                         print ("je neemt je familie mee naar de haven") 
+                         print ("je kan mee op 2 booten")
+                         print ("boot 1 is een klein bootje waar ongeveer 25 mensen")
+                         print ("boot 2 is een groote boot van een visser maar dan moet je worden mee gesmokkeld")
+                         print ('typ a voor boot 1')
+                         print ("typ b voor boot 2")
+                         d3d = input ('maak een keuze')
+                         if d3d =="a":
+                              print ('je neemt je familie mee op boot 1')
+                              print ("he is heel krap maar het past net")
+                              print ("na dagen lang varen kom je eindelijk aan in Nederland")
+                              print ('je prebeerd je leven weer op te paken in een nieuw land')
+                              print ("GOED EINDE")
+                              break
+                         elif d3d == "b":
+                              print (" je smockeld je familie mee op boot 2") 
+                              print (" je probeerd je te verschuilen in de opslag ruimgte maar je wordt gevonden")
+                              print ("je familie wordt ook meegenomen en komen samen met jouw in de gevangenis ")
+                              print ("SLECHT EINDE")
+                              break
                elif d3b == "b":
                     print ("je wordt zo snel mogenlijk naar de terroristen basis gestuurd") 
                     print ("je staat klaar samen met Yehudi voor de aanval")
@@ -59,23 +90,23 @@ while True:
                     print ("typ b om hem achter te laten")
                     d3c = input ("maak een keuze")
                     if d3c == "b":
-                    print ("je blijft rennen en denkt niet aan je gevallen kamaraat")
-                    print ("je hoort nog meer pistool schooten maar je let er niet te veel op*")
-                    print ("terwijl je blijft rennen kijk je omhoog en ziet een raket op je af komen")
-                    print ("je probeert uit de weg te duiken maar de exposie is te groot en je explodeert")
-                    print ("YOU DIED")
-                     break
+                      print ("je blijft rennen en denkt niet aan je gevallen kamaraat")
+                      print ("je hoort nog meer pistool schooten maar je let er niet te veel op*")
+                      print ("terwijl je blijft rennen kijk je omhoog en ziet een raket op je af komen")
+                      print ("je probeert uit de weg te duiken maar de exposie is te groot en je explodeert")
+                      print ("YOU DIED")
+                      break
                          
                     elif d3c == "a":
-                    print ("je pakt Yehudi op en gooit zijn arm over jouw schouder") 
-                    print ("Yehudi : dankje ik had dat had het einde kunnen zijn voor mij dankje")       
-                    print ("terwijl je hem mee neemt kijk je omhoog en ziet een raket op je af komen")
-                    print ("Yehudi duwt je aan de kant maar wordt daar door zelf geraakt en ontploft")
-                    print ("je blijft door rennen en komt in de kamer van de teroroisten baas")
-                    print ('met 1 simple schot schiet je hem neer')
-                    print ("de strijd is gewonen en je syrie is vrij")
-                    print ("GOOD ENDING")
-                    break
+                         print ("je pakt Yehudi op en gooit zijn arm over jouw schouder") 
+                         print ("Yehudi : dankje ik had dat had het einde kunnen zijn voor mij dankje")       
+                         print ("terwijl je hem mee neemt kijk je omhoog en ziet een raket op je af komen")
+                         print ("Yehudi duwt je aan de kant maar wordt daar door zelf geraakt en ontploft")
+                         print ("je blijft door rennen en komt in de kamer van de teroroisten baas")
+                         print ('met 1 simple schot schiet je hem neer')
+                         print ("de strijd is gewonen en je syrie is vrij")
+                         print ("GOOD ENDING")
+                         break
                          
           elif d3a == "b":
                print ("he..HEY WHERE ARE YOU GOING!")
@@ -85,14 +116,60 @@ while True:
                print ("*type b to go to your familly*")
                d4a = input ("*what do you do?*")
                if d4a == "a":
-                    print ("*you start running as fast as you can towards the edge of the city*")
-                    print ("*on your way you see more people running away and getting blown up*")
-                    print ("*you notice that as you're running a gun shop that has been abandoned*")
-                    print (x + " : hmmmm could be handy.")
-                    print ("*type a to go into the gun shop*")
-                    print ("*type b to keep running*")
-                    d5a = input ("*what do you do?*")
-                    if d5a == "a":
+                     print ("*you start running as fast as you can towards the edge of the city*")
+                     print ("*on your way you see more people running away and getting blown up*")
+                     print ("*you notice that as you're running a gun shop that has been abandoned*")
+                     print (x + " : hmmmm could be handy.")
+                     print ("*type a to go into the gun shop*")
+                     print ("*type b to keep running*")
+                     d5a = input ("*what do you do?*")
+                     if d5a == "b":
+                          print ("je rent ze ver als je kunt")
+                          print ("achter je hoor je nog geweer schooten en bommen af gaan")
+                          print ("na een tijdej rennen kom je buiten de stad terecht")
+                          sleep (1)
+                          print ("je ziet in de verte een hoop vluchtelingen")
+                          print ("typ a om met ze mee te gaan")
+                          print ("typ b om alleen veder te gaan")
+                          d5b = input ('maak een keuze')
+                          if d5b == "a":
+                              print ("je wordt terug de stad ingestuurd samen met meerdere militaire")
+                              print ('in het vluichtenlingen kamp kom je je familie tegen')
+                              print ("je besluit om te gaan vluchten samen met je family")
+                              print ("typ a om te vluchten naar Nederland")
+                              print ("typ b om naar het buurland te vluchten")
+                              d5c = input ("maak een keuze")
+                              if d5c == "b":
+                                   print ("je besluit om je familie mee te nemen naar het buurland")
+                                   print ("maar daar voor moet je door een hele lange woestijn")
+                                   print ("na dagen lang lopen kom je eindelijk veilig aan in het buurland")
+                                   print ('het is rustiger maar de spanning is nog well te voellen in het buurland')
+                                   print ('je probeerd je leven weer op te paken en probeerd vorige leven achter je te laten')
+                                   print ("NEUTRAAL EINDE")
+                                   break
+                              elif d5c == "a":
+                                   print ("je belsuit om met je familie naar nederland te gaan vluchten")  
+                                   print ("je hebt goeie dingen gehoord over nederland en denkt dat het een goed idee is om daar naar to te gaan")  
+                                   print ("je neemt je familie mee naar de haven") 
+                                   print ("je kan mee op 2 booten")
+                                   print ("boot 1 is een klein bootje waar ongeveer 25 mensen")
+                                   print ("boot 2 is een groote boot van een visser maar dan moet je worden mee gesmokkeld")
+                                   print ('typ a voor boot 1')
+                                   print ("typ b voor boot 2")
+                                   d5d = input ('maak een keuze')
+                                   if d5d =="a":
+                                        print ('je neemt je familie mee op boot 1')
+                                        print ("he is heel krap maar het past net")
+                                        print ("na dagen lang varen kom je eindelijk aan in Nederland")
+                                        print ('je prebeerd je leven weer op te paken in een nieuw land')
+                                        print ("GOED EINDE")
+                                   elif d5d == "b":
+                                        print (" je smockeld je familie mee op boot 2") 
+                                        print (" je probeerd je te verschuilen in de opslag ruimgte maar je wordt gevonden")
+                                        print ("je familie wordt ook meegenomen en komen samen met jouw in de gevangenis ")
+                                        print ("SLECHT EINDE")
+                                        break  
+                     elif d5a == "a":
                          print ("*without a speck of hesitation you rush over towards the store*")
                          print ("*you kick the door in and run towards the counter*")
                          print ("*you notice that most of the huns have already been taken*")
@@ -100,7 +177,6 @@ while True:
                          print (x + " : shit just my luck. hmmm wich one should i take?")
                          print ("*type a to take the sniper and sun-glasses*")
                          print ("*type b to take the ak47 and sigar*")
-                         print ("*type c to take everything*")
                          d6a = input ("what do you do?")
                          if d6a == "a":
                               print (x + " : no scope time")
@@ -116,6 +192,7 @@ while True:
                                    print ("*but not a second later your body get filled with bullets*")
                                    print ("*you fall to the ground as your conciousnes fades away")
                                    print ("YOU DIED")
+                                   break
                                    
                               elif d7a == "a":
                                    print ("*you put on the sunglasses as you grab the sniper*")     
@@ -123,4 +200,89 @@ while True:
                                    print ("*as you hold the sniper with one arm, you shoot the first guy with out breaking a sweat*")
                                    print ("*with your other hand you grab your phone and quickly start playing the song Bangarang from skrilex*")
                                    print ('*meanwhile you jump up into the air spinning as you do and shoot the second guy')
-                                   print ("")
+                                   sleep (2)
+                                   print ("daarna ren je snell naar de achter")
+                                   print ("klimt over het hek van de achtertuin")
+                                   print ("het lukt je om van de terroristen te ontsnappen")
+                                   sleep (2)
+                                   print ("je blijft rennen met de chaos om je heen")
+                                   print ("je komt een meisje tegen die haar ouders kwijt is")
+                                   print ('typ a om haar te helpen')
+                                   print ("typ by om haar achter te laten")
+                                   d8a = input ("maak een keuze")
+                                   if d8a == "a":
+                                        print ("je neemt haar mee")
+                                        print ("je ziet dat er een bus met vluchteling zometeen vertrekt")
+                                        print (" je ziet achter je een hoop teroristen op je afstormen")
+                                        print ("je besluit om het meisje op de buss te gooien en de teroristen weg te houden van de bus")
+                                        print ("je neemt je sniper en schiet zo veel mogenlijk terorists")
+                                        print ("de buss rijd weg samen met het meisje ")
+                                        sleep (2)
+                                        print ("je wordt geschotten in je rug terwijl je kijkt naar de bus")
+                                        print ("je hebt het meisje tenmisnsten gered maar bent hellaas zelf omgekomen")
+                                        print ("SPECIAL ENDING")
+                                        break
+     elif d2a == "b":
+          print ("het laatste dat je hoord is een luide knall")
+          print ("en je zicht gaat zwart")
+          sleep (2)
+          print ("je wordt wakker in een ziekenhuis bed")
+          print ("met je familie naast je")
+          print ("de docter loopt binnen")
+          sleep (2)
+          print ("typ a om aan de docter te vragen wat er is gebeurd")
+          print ("typ b om aan de docter te vragen waneer je weg mag")
+          d2b = input ("maak een keuze")
+          if d2b == "a":
+               print ("Docter: nou het is een wonder dat je nog leeft mr " + x )
+               print ("er is een terorist aanslag aan de hand")
+               print ("je werdt bijna dierect geraakt door een bom")
+               sleep (2)
+               print ("maar gelukkig heeft je familie je kunnen reden uit de puin")
+          elif d2b == "b":
+               print ("Docter: wow rustig aan mr " + x + " je bent knock out geweest for een paar uur")  
+               print ("het is een wonder dat je nog leeft")  
+               print ("er is een terorist aanslag aan de hand")
+               print ("je werdt bijna dierect geraakt door een bom")
+               sleep (2)
+               print ("maar gelukkig heeft je familie je kunnen reden uit de puin")
+          print ('gelukkig is er niet er niet veel aan de hand dus je kan gewoon gaan')
+          sleep (2)
+          print ("je kijkt naar je familie")
+          print (x + ": wat nu?")
+          print ("typ a om met je familie te vluchten")
+          print ("typ b om aleen te vluchten")
+          d2c = input ("maak een keuze")
+          if d2c == "b":
+               print ("je besluit om je familie mee te nemen naar het buurland")
+               print ("maar daar voor moet je door een hele lange woestijn")
+               print ("na dagen lang lopen kom je eindelijk veilig aan in het buurland")
+               print ('het is rustiger maar de spanning is nog well te voellen in het buurland')
+               print ('je probeerd je leven weer op te paken en probeerd vorige leven achter je te laten')
+               print ("NEUTRAAL EINDE")
+               break
+          elif d2c == "a":
+               print ("je belsuit om met je familie naar nederland te gaan vluchten")  
+               print ("je hebt goeie dingen gehoord over nederland en denkt dat het een goed idee is om daar naar to te gaan")  
+               print ("je neemt je familie mee naar de haven") 
+               print ("je kan mee op 2 booten")
+               print ("boot 1 is een klein bootje waar ongeveer 25 mensen")
+               print ("boot 2 is een groote boot van een visser maar dan moet je worden mee gesmokkeld")
+               print ('typ a voor boot 1')
+               print ("typ b voor boot 2")
+          d5d = input ('maak een keuze')
+          if d5d =="a":
+               print ('je neemt je familie mee op boot 1')
+               print ("he is heel krap maar het past net")
+               print ("na dagen lang varen kom je eindelijk aan in Nederland")
+               print ('je prebeerd je leven weer op te paken in een nieuw land')
+               print ("GOED EINDE")
+               break
+          elif d5d == "b":
+               print (" je smockeld je familie mee op boot 2") 
+               print (" je probeerd je te verschuilen in de opslag ruimgte maar je wordt gevonden")
+               print ("je familie wordt ook meegenomen en komen samen met jouw in de gevangenis ")
+               print ("SLECHT EINDE")
+               break  
+
+
