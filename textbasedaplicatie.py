@@ -1,0 +1,126 @@
+from time import sleep
+while True:
+     print ("hey my name Yehudi.")
+     print ("i'm 22 years old and very very veeeery stupid.")
+     print ("no idea what that had to do with anything but doesn't mater.")
+     x = input ("by the way, who are you?.")
+     print ( x +"?, wierd name.")
+     print ("no offence but i think peter or George would fit you beter.")
+     print ("i mean " + x +" is cool but you deserve beter.")
+     d1a = input ("don't you think?")
+     if d1a == "yes":
+          print ("thank god someone at least knows what is good for them")
+     elif d1a == "no":
+          print ("my god, well if that is what you want i can't help ya")
+
+     print ("either way " + x + " if that is you real name")
+     print ("i need to ask you a few more questions for...... reshearch purpose..")
+     print ("like for instance...wait LOOK OUT!")
+     print ("*type a to dodge.*")
+     print ("*type b to stand still.*")
+     d2a = input ("what do you do?")
+     if  d2a == "a":
+          print ("*as you dodge out of the way s huge explotion erupts at the spot where you were standing*")
+          print ("my god that was close, nice dodge " + x + " didn't think you had it in ya")
+          print ("looks like the city is under attack again")
+          print ("follow me!")
+          print ("*type a to follow*")
+          print ("*type b to run away*")
+          d3a = input ("what do you do?")
+          if d3a == "a":
+               print ("yehudi: ok kom mee, we moeten snell zijn, we hebben niet veel tijd meer")
+               print ("*jij en Yehudi rennen zo snell mogenijk naar buiten*")
+               print ("*zodra jullie buiten het gebouw zijn zien jullie meerdere bomen aff gaan in meerdere gebouwen")
+               print ("*een gevoel van angst komt over je tewijl je dit ziet*")
+               print ("*na een tijdje rennen kommen jullie aan bij het miltaire gebouw*")
+               print ("*yehudi verteld dat de terroristen aanvallen en dat ze ze mensen nodig hebben voor 2 missies")
+               print (" missie 1 : help de mensen de stad uit te vluchten")
+               print (" missie 2 : ga mee naar de terroristen basis en versla ze")
+               print ("typ a voor missie 1")
+               print ("typ b voor missie 2")
+               d3b = input ("maak een keuze") 
+               if d3b == "a":
+                    print ("je wordt terug de stad ingestuurd samen met meerdere militaire")
+                    print ('in het vluichtenlingen kamp kom je je familie tegen')
+                    print ("je besluit om te gaan vluchten samen met je family")
+                    print ("typ a om te vluchten naar Nederland")
+                    print ("typ b om naar het buurland te vluchten")
+                    d3c = input ("maak een keuze")
+                    if d3c == "b":
+                         print ("")
+                    elif d3c == "a":
+                         print ("")     
+               elif d3b == "b":
+                    print ("je wordt zo snel mogenlijk naar de terroristen basis gestuurd") 
+                    print ("je staat klaar samen met Yehudi voor de aanval")
+                    print ("*na een tijdje stormen jullie met z'n alle de basis binnen*")
+                    print ("*Yehudi wordt in z'n arm geschooten en valt neer op de grond")
+                    print ("typ a om hem te helpen")
+                    print ("typ b om hem achter te laten")
+                    d3c = input ("maak een keuze")
+                    if d3c == "b":
+                    print ("je blijft rennen en denkt niet aan je gevallen kamaraat")
+                    print ("je hoort nog meer pistool schooten maar je let er niet te veel op*")
+                    print ("terwijl je blijft rennen kijk je omhoog en ziet een raket op je af komen")
+                    print ("je probeert uit de weg te duiken maar de exposie is te groot en je explodeert")
+                    print ("YOU DIED")
+                     break
+                         
+                    elif d3c == "a":
+                    print ("je pakt Yehudi op en gooit zijn arm over jouw schouder") 
+                    print ("Yehudi : dankje ik had dat had het einde kunnen zijn voor mij dankje")       
+                    print ("terwijl je hem mee neemt kijk je omhoog en ziet een raket op je af komen")
+                    print ("Yehudi duwt je aan de kant maar wordt daar door zelf geraakt en ontploft")
+                    print ("je blijft door rennen en komt in de kamer van de teroroisten baas")
+                    print ('met 1 simple schot schiet je hem neer')
+                    print ("de strijd is gewonen en je syrie is vrij")
+                    print ("GOOD ENDING")
+                    break
+                         
+          elif d3a == "b":
+               print ("he..HEY WHERE ARE YOU GOING!")
+               print ("*as you run away from yehudi you hear more explotions coming from all around you.*")
+               print (x + ": i have to get out of here." )
+               print ("*type a to flee the city*")
+               print ("*type b to go to your familly*")
+               d4a = input ("*what do you do?*")
+               if d4a == "a":
+                    print ("*you start running as fast as you can towards the edge of the city*")
+                    print ("*on your way you see more people running away and getting blown up*")
+                    print ("*you notice that as you're running a gun shop that has been abandoned*")
+                    print (x + " : hmmmm could be handy.")
+                    print ("*type a to go into the gun shop*")
+                    print ("*type b to keep running*")
+                    d5a = input ("*what do you do?*")
+                    if d5a == "a":
+                         print ("*without a speck of hesitation you rush over towards the store*")
+                         print ("*you kick the door in and run towards the counter*")
+                         print ("*you notice that most of the huns have already been taken*")
+                         print ("*you start seaching the place as fast as possible but only find a few guns*")
+                         print (x + " : shit just my luck. hmmm wich one should i take?")
+                         print ("*type a to take the sniper and sun-glasses*")
+                         print ("*type b to take the ak47 and sigar*")
+                         print ("*type c to take everything*")
+                         d6a = input ("what do you do?")
+                         if d6a == "a":
+                              print (x + " : no scope time")
+                              print("*at that moment other people enter the store*")
+                              print("*they are carying multiple guns and look at you angry*")
+                              print("terrorist : well well well. if it isn't" + x )
+                              print("terrorist : looks like it's our lucky day boys, LIGHT EM UP!")
+                              print ("*type a to no-scope them")
+                              print ("*type b to hard-scope them")
+                              d7a = input ('what do you do?')
+                              if d7a == "b":
+                                   print ("*you quickly pop up from behind the counter and try to aim as fast as possible*")
+                                   print ("*but not a second later your body get filled with bullets*")
+                                   print ("*you fall to the ground as your conciousnes fades away")
+                                   print ("YOU DIED")
+                                   
+                              elif d7a == "a":
+                                   print ("*you put on the sunglasses as you grab the sniper*")     
+                                   print ( x + " : get ready to get rekt noob")
+                                   print ("*as you hold the sniper with one arm, you shoot the first guy with out breaking a sweat*")
+                                   print ("*with your other hand you grab your phone and quickly start playing the song Bangarang from skrilex*")
+                                   print ('*meanwhile you jump up into the air spinning as you do and shoot the second guy')
+                                   print ("")
